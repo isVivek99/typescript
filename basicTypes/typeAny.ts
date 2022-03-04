@@ -3,3 +3,4 @@ let obj: any = { x: 0 };
 // Using `any` disables all further type checking, and it is assumed
 // you know the environment better than TypeScript.
 obj.foo();
+obj();
